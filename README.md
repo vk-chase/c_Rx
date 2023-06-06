@@ -136,6 +136,7 @@ Config.NoFuelUsage = { -- This is for you to put vehicles that you don't want to
 ### and make it look something like this 
 
 Config.NoFuelUsage = { -- This is for you to put vehicles that you don't want to use fuel.
+
 "iak_wheelchair",
 }
 
