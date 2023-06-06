@@ -1,22 +1,27 @@
 # c_Rx
-Free Rx / Wheelchair script for QBCore servers
+### Free Rx / Wheelchair script for QBCore servers
 
 
 
-required:
+### REQUIRED:
 __________
-qb-core
-progressbar
-qb-menu
+### qb-core
 
-qb-target
-PolyZone
+### progressbar
 
-jim-consumables or qb-smallresources, jim snippet provided no one uses smallresources for consumables.
+### qb-menu
+
+### qb-target
+
+### PolyZone
+
+### jim-consumables or qb-smallresources, 
+
+jim snippet provided no one uses smallresources for consumables.
 
 
 
-### qb-ambulancejob armory add these , change the slot number to your needed slot#
+### OPTIONAL qb-ambulancejob armory add these , change the slot number to your needed slot#
 
         [10] = {
             name = "prescription_pad",
@@ -79,7 +84,7 @@ jim-consumables or qb-smallresources, jim snippet provided no one uses smallreso
 
 
 then add this to the emotes at the bottom of config in jim consumables 
-*** you must have RPEmotes, if not change water to drink above! otherwise the water emote will not display prop.
+### you must have RPEmotes, if not change water to drink above! otherwise the water emote will not display prop.
 
 		    ["water"] = {
 			"mp_player_intdrink",
@@ -104,18 +109,12 @@ then add this to the emotes at the bottom of config in jim consumables
         
         
         
-        --### Wheelchair area
+### ON TO THE WHEELCHAIR README
         
-        ### qb-vehiclekeys find and replace this 
-required:
-qb-core
-qb-target
-qb-menu
-PolyZone
+ ### qb-vehiclekeys find and replace this 
 
 
-
-*** THIS IS ALL OPTIONAL BUT IF YOU FOLLOW THE BELOW, YOUR WHEELCHAIR WILL NOT CONSUME FUEL AND ALSO BE UN STEALABLE BY OTHER PLAYERS.
+### THIS IS ALL OPTIONAL BUT IF YOU FOLLOW THE BELOW, YOUR WHEELCHAIR WILL NOT CONSUME FUEL AND ALSO BE UN STEALABLE BY OTHER PLAYERS.
 
 
 Config.ImmuneVehicles = {
