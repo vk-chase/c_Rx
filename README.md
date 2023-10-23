@@ -1,7 +1,7 @@
 # c_Rx
 ### Free Rx / Wheelchair script for QBCore servers
 
-https://discord.gg/S7UqrJMHBj 
+[https://discord.gg/S7UqrJMHBj ](https://youtu.be/9k5R07_h-Mg)
 
 ### REQUIRED:
 __________
